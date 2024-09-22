@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Listing - Real Estate</title>
+    <link rel="stylesheet" href="listing.css">
+</head>
+<body>
+    <!-- Transparent Navbar -->
+    <header class="navbar">
+        <nav class="container">
+            <h1 class="logo">keller Williams</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">agents</a></li>
+                <li><a href="#">listing</a></li>
+                <li><a href="#">signin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Add Listing Section -->
+    <section class="listing-section">
+        <div class="listing-box">
+            <h2>Add New Listing</h2>
+            <form>
+                <div class="input-field">
+                    <input type="text" placeholder="Title" required>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Location" required>
+                </div>
+                <div class="input-field">
+                    <input type="number" placeholder="Price" required>
+                </div>
+                <div class="input-field upload-field">
+                    <label for="file-upload" class="upload-btn">Upload Image</label>
+                    <input id="file-upload" type="file" style="display: none;" required>
+                </div>
+                <button type="submit" class="btn">Add Listing</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Real Estate. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
